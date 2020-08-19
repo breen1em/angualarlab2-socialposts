@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+.body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #F3F1F7;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+}

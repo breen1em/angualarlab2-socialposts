@@ -1,0 +1,9 @@
+<li>
+  <div>
+    <p>{{ postRef.title }}</p>
+    <p>{{ postRef.thought }}</p>
+    <p>Likes: {{ postRef.votes }}</p>
+    <button (click)="upVotePost()">Like</button>
+    <button (click)="deletePost()">Delete</button>
+  </div>
+</li>
